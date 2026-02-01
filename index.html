@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <style>
+    html{
+      background-image: url(petals\ background.jpg); ;
+      background-repeat: no-repeat;
+      background-size: 100%;
+      color: white;
+    }
+    .head{
+      width: 500px;
+      text-align: center;
+      font-size: 80px;
+      margin: 0;
+      padding: 0;
+    }
+    h1{
+      text-align: center;
+      font-size: 80px;
+      margin: 0;
+      padding: 0;
+    }
+    .container{
+      display: grid;
+      grid-template-columns: 1fr 1fr ;
+      grid-template-rows: auto auto auto ;
+      gap: 300px;
+      justify-content: flex-end;
+    }
+    .card{
+      background-color: white;
+    }
+
+    .one{
+      max-width: 400px;
+      max-height: 250px;
+      margin-top: 40px;
+    }
+    .pro1{
+      width: 400px;
+      height: 250px;
+    }
+    .left{
+      margin-left: 680px;
+    }
+
+    .two{
+      max-width: 450px;
+      max-height: 260px;
+      margin-top: 40px;
+    }
+    .pro2{
+      width: 450px;
+      height: 260px;
+    }
+
+    .three{
+      max-width: 300px;
+      max-height: 300px;
+    }
+    .pro3{
+      width: 300px;
+      height: 300px;
+    }
+  </style>
+
+
+  <head>
+    <!--Name in tab bar and tells browser how to display the website -->
+    <title>CryMar Creations</title>
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
+  </head>
+
+
+  <body>
+    <a href="index.html"><img class="head" src="Page header.jpg" alt="company logo"></a>
+
+    <h1>Welcome!</h1>
+    <!--Makes grid to display the products in boxes-->
+    <div class="container">
+      <div class="card one left"><img class="pro1" src="Product1 example.jpg" alt="picture of product">
+        Product 1 Name<br>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam bibendum lorem at orci faucibus varius. Aliquam mauris orci, vulputate nec. </div>
+      <div class="card two"><img class="pro2" src="Product 2 example.jpg" alt="picture of product">
+        Product 2 Name <br>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam bibendum lorem at orci faucibus varius. Aliquam mauris orci, vulputate nec.</div>
+      <div class="card three left"><img class="pro3" src="Product 3 example.jpg" alt="picture of product">
+        </div>
+      <div class="card four"></div>
+    </div>
+  </body>
+
+
+</html>
